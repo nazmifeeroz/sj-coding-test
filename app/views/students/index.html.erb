@@ -1,0 +1,21 @@
+<% @students.each_slice(4) do |four_students| %>
+
+    <div class="row justify-content-center">
+
+    <% four_students.each do |student| %>
+
+        <%= link_to students_path(id: student) do %>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://robohash.org/<%= student.name %>">
+                <div class="card-body text-center">
+                    <h5 class="card-title"><%= student.name %></h5>
+                </div>
+            </div>
+
+        <% end %>
+
+    <% end %>
+    </div>
+
+<% end %>

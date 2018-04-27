@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Student.delete_all
+
+30.times do |student|
+    Student.create(
+        :name       => Faker::Name.name,
+        :number     => Faker::Code.asin,
+        :faculty    => Faker::Educator.course
+    )
+end
