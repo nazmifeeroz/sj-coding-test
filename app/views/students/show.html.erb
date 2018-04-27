@@ -22,3 +22,8 @@
 <div class="row justify-content-center mt-4">
     <%= link_to 'Back', root_path, class: "btn btn-info" %>
 </div>
+
+<%= link_to "Download PDF",
+  students_download_path(@student, format: "pdf"),
+  target: "_blank",
+  class: "download" %>

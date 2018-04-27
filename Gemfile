@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'pdfkit'
-gem 'render_anywhere'
+gem 'render_anywhere', :require => false
 gem 'wkhtmltopdf-binary'
 
 group :development, :test do
