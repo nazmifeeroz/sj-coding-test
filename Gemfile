@@ -16,8 +16,8 @@ gem 'wkhtmltopdf-binary'
 
 gem 'rqrcode'
 
-gem 'sqlite3'
-# gem 'pg'
+# gem 'sqlite3'
+gem 'pg'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
