@@ -26,3 +26,4 @@ rails db:seed
 ## Rspec Test
 - Index Page is rendered to display all students.
 - Show Page is rendered to display a student profile.
+- Empty database will render db:seed error.
