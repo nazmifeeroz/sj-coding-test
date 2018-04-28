@@ -15,7 +15,6 @@ gem 'render_anywhere', :require => false
 gem 'wkhtmltopdf-binary'
 
 gem 'rqrcode'
-
 # gem 'sqlite3'
 gem 'pg'
 
