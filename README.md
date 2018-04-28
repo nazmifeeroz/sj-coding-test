@@ -17,7 +17,7 @@ Seeds are built for fast setup. Simply run:
 rake db:seed
 ```
 
-30 robo students will be created with its own unique picture! (Check out "https://robohash.org/)
+30 robo students will be created with its own unique picture! (Check out https://robohash.org/)
 
 ## Rspec Test
 - Index Page is rendered to display all students.

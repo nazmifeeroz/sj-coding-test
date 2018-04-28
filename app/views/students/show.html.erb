@@ -1,4 +1,4 @@
-<div class="students-heading">Student Profile</div>
+<div class="students-heading">Robo Student Profile</div>
 
 <div class="row justify-content-center student-profile">
 
@@ -18,7 +18,7 @@
         </p>
 
         <p>
-            <%= link_to "Download User Profile (PDF)",
+            <%= link_to "Download Student Profile (PDF)",
                 student_download_path(@student, @student, format: "pdf"),
                 target: "_blank",
                 class: "btn btn-primary"
@@ -29,5 +29,5 @@
 </div>
 
 <div class="row justify-content-center mt-4">
-    <%= link_to 'List All Students', root_path, class: "btn btn-info" %>
+    <%= link_to 'Back to List', root_path, class: "btn btn-info" %>
 </div>
