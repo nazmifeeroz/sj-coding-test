@@ -20,6 +20,6 @@ describe 'students/index.html.erb' do
   it "displays please run db:seed when theres no data" do
     assign(:students, Student.none)
     render
-    expect(rendered).to include('Please run')
+    expect(rendered).to include('<h4>Please run <code>rails db:seed</code> in your terminal!</h4>')
   end
 end
