@@ -7,3 +7,18 @@
 ### BONUS
 - [x] As a user, I should be able to see the QR code for the student number in the PDF, so that I can scan it
 
+## About Robo Students
+- I thought it will be fun to add robot students as the samples to use in this app!
+
+## Running the app
+Seeds are built for fast setup. Simply run:
+
+```shell
+rake db:seed
+```
+
+30 robo students will be created with its own unique picture! (Check out "https://robohash.org/)
+
+## Rspec Test
+- Index Page is rendered to display all students.
+- Show Page is rendered to display a student profile.
