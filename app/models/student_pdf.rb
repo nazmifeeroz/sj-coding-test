@@ -5,6 +5,7 @@ class StudentPdf
 
   def initialize(student)
     @student = student
+    @qr = RQRCode::QRCode.new( student.number, :size => 1, :level => :h )
   end
 
   def to_pdf
@@ -19,8 +20,9 @@ class StudentPdf
   private
 
     attr_reader :student
+    attr_reader :qr
 
     def as_html
-      render template: "students/show", layout: "application", locals: { student: student }
+      render template: "students/pdf", layout: "student_pdf", locals: { student: student, qr: qr }
     end
 end

@@ -9,7 +9,7 @@ class DownloadsController < ApplicationController
     private
 
     def student_pdf
-      student = Student.find(55)
+      student = Student.find(params[:id])
       StudentPdf.new(student)
     end
 

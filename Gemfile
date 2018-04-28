@@ -15,6 +15,8 @@ gem 'pdfkit'
 gem 'render_anywhere', :require => false
 gem 'wkhtmltopdf-binary'
 
+gem 'rqrcode'
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end

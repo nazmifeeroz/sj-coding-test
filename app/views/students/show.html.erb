@@ -1,4 +1,7 @@
-<div class="row justify-content-center">
+<div class="students-heading">Student Profile</div>
+
+<div class="row justify-content-center student-profile">
+
     <div class="card">
 
         <img class="card-img-top" src="https://robohash.org/<%= @student.name %>">
@@ -14,16 +17,17 @@
             <strong><%= @student.number %></strong>
         </p>
 
-        <p><button class="btn btn-primary">Download User Profile</button></p>
+        <p>
+            <%= link_to "Download User Profile (PDF)",
+                student_download_path(@student, format: "pdf"),
+                target: "_blank",
+                class: "btn btn-primary"
+            %>
+        </p>
 
     </div>
 </div>
 
 <div class="row justify-content-center mt-4">
-    <%= link_to 'Back', root_path, class: "btn btn-info" %>
+    <%= link_to 'List All Students', root_path, class: "btn btn-info" %>
 </div>
-
-<%= link_to "Download PDF",
-  students_download_path(@student, format: "pdf"),
-  target: "_blank",
-  class: "download" %>

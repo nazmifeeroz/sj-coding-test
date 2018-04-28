@@ -6,15 +6,19 @@
     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Sj Coding Test" %>">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <%= csrf_meta_tags %>
   </head>
   <body>
-    <header>
-      <%= render 'layouts/navigation' %>
-    </header>
+
     <div class="container-fluid">
        <%= render 'layouts/messages' %>
        <%= yield %>
     </div>
+
+    <footer>
+      <div class="coder">&lt;/&gt; with <span>&hearts;</span> by Nazmi</div>
+    </footer>
   </body>
 </html>

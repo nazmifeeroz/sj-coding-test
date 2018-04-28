@@ -1,0 +1,40 @@
+<table class="profile-table">
+
+    <thead>
+        <th>Robo Student Profile</th>
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td><img class="img-fluid" src="https://robohash.org/<%= student.name %>"></td>
+        </tr>
+
+        <tr>
+            <th class="label">Student Name</th>
+        </tr>
+        <tr>
+            <td><%= student.name %></td>
+        </tr>
+
+        <tr>
+            <th class="label">Faculty</th>
+        </tr>
+        <tr>
+            <td><%= student.faculty %></td>
+        </tr>
+
+        <tr>
+            <th class="label">Student Number</th>
+        </tr>
+        <tr>
+            <td><%= student.number %></td>
+        </tr>
+
+    </tbody>
+
+</table>
+
+<center>
+    <%= raw qr.as_html %>
+</center>

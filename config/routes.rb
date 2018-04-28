@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
     root to: "students#index"
-    resource :students, only: [:show] do
-        resource :download, only: [:show]
+
+    resources :students, only: [:index, :show] do
+        resources :downloads, only: [:show]
     end
-    get 'download_pdf', to: "students#downloadPdf"
+
+    get 'test', to: 'tests#test'
 end

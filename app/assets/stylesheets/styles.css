@@ -1,12 +1,93 @@
+body {
+    background: linear-gradient(to left, #50B4AC 0%, #7BBB7D 100%);
+}
+
+div.container-fluid {
+    padding: 0;
+}
+
 .card {
+    background-color: #C1C684;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: 5px;
     text-align: center;
-    font-family: arial;
+    color: black;
+    transition: 0.3s;
 }
 
 .card:hover {
-    transform: scale(1.02);
-    transition: 0.3s;
+    transform: scale(1.05);
+    transition: 0.2s;
 }
+
+.students-heading {
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(0,0,0,0.2);
+}
+
+.list {
+    height: 85vh;
+    overflow-x: scroll;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.coder {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 2px rgb(0,0,0,0.2);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.coder span {
+    color: red;
+}
+
+.profile-table {
+    width: 100%;
+    text-align: center;
+}
+
+
+.profile-table td {
+    border-left: none;
+}
+
+.profile-table thead th {
+    font-size: 40px;
+}
+
+.label {
+    padding-top: 30px;
+}
+
+.student-profile-qr {
+    width: 600px;
+    margin: 50px;
+    padding: 50px;
+}
+
+/* for QR code */
+table {
+    border-width: 0;
+    border-style: none;
+    border-color: #0000ff;
+    border-collapse: collapse;
+  }
+
+  td {
+    border-left: solid 10px #000;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    height: 10px;
+  }
+
+  td.black { border-color: #000; }
+  td.white { border-color: #fff; }
