@@ -17,6 +17,7 @@ gem 'wkhtmltopdf-binary'
 gem 'rqrcode'
 # gem 'sqlite3'
 gem 'pg'
+gem 'faker'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -42,7 +43,6 @@ group :development do
 end
 group :development, :test do
   gem 'factory_bot_rails'
-  gem 'faker'
   gem 'rspec-rails'
   gem 'rubocop'
 end
