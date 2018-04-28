@@ -1,6 +1,15 @@
 <div class="students-heading">Robo Students</div>
 
 <div class="list">
+
+<% if @students.empty? %>
+
+    <div class="coder justify-content-center">
+        <h4>Please run <code>rails db:seed</code> in your terminal!</h4>
+    </div>
+
+<% else %>
+
     <% @students.each_slice(4) do |four_students| %>
 
         <div class="row justify-content-center">
@@ -25,4 +34,5 @@
         </div>
 
     <% end %>
+<% end %>
 </div>

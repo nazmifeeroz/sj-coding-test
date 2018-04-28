@@ -14,7 +14,7 @@
 Seeds are built for fast setup. Simply run:
 
 ```shell
-rake db:seed
+rails db:seed
 ```
 
 30 robo students will be created with its own unique picture! (Check out https://robohash.org/)
