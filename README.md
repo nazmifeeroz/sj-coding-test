@@ -1,48 +1,9 @@
-Sj Coding Test
-================
+## Sj Coding Test (Robo Students)
 
-This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
-provided by the [RailsApps Project](http://railsapps.github.io/).
+[x] As a user, I should be able to list all students in the school, so that I can see their names
+[x] As a user, I should be able to click on a student's name in the list, so that I can see the name, student number and faculty of the student in the student details page
+[x] As a user, I should be able to click on the "Download PDF" button in the student details page, so that I can download a pdf copy of the student's details
 
-Rails Composer is supported by developers who purchase our RailsApps tutorials.
+*BONUS*
+[x] As a user, I should be able to see the QR code for the student number in the PDF, so that I can scan it
 
-Problems? Issues?
------------
-
-Need help? Ask on Stack Overflow with the tag 'railsapps.'
-
-Your application contains diagnostics in the README file. Please provide a copy of the README file when reporting any issues.
-
-If the application doesn't work as expected, please [report an issue](https://github.com/RailsApps/rails_apps_composer/issues)
-and include the diagnostics.
-
-Ruby on Rails
--------------
-
-This application requires:
-
-- Ruby 2.5.1
-- Rails 5.2.0
-
-Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.html).
-
-Getting Started
----------------
-
-Documentation and Support
--------------------------
-
-Issues
--------------
-
-Similar Projects
-----------------
-
-Contributing
-------------
-
-Credits
--------
-
-License
--------
