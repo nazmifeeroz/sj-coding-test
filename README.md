@@ -26,4 +26,4 @@ rails db:seed
 ## Rspec Test
 - Index Page is rendered to display all students.
 - Show Page is rendered to display a student profile.
-- Empty database will render db:seed error.
+- Empty database will render `<h4>Please run <code>rails db:seed</code> in your terminal!</h4>` error.
