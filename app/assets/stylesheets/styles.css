@@ -30,14 +30,15 @@ div.container-fluid {
 }
 
 .list {
-    height: 85vh;
+    height: 80vh;
     overflow-x: scroll;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2);
 }
 
 .coder {
-    margin-top: 10px;
+    margin-top: 20px;
     text-align: center;
     font-size: 15px;
     color: white;
