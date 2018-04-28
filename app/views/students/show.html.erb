@@ -19,7 +19,7 @@
 
         <p>
             <%= link_to "Download User Profile (PDF)",
-                student_download_path(@student, format: "pdf"),
+                student_download_path(@student, @student, format: "pdf"),
                 target: "_blank",
                 class: "btn btn-primary"
             %>
