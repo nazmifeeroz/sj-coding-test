@@ -10,7 +10,7 @@ class StudentPdf
 
   def to_pdf
     kit = PDFKit.new(as_html, page_size: 'A4')
-    kit.to_file("#{Rails.root}/public/student.pdf")
+    kit.to_file("public/student.pdf")
   end
 
   def filename
