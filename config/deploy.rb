@@ -2,7 +2,7 @@
 lock "~> 3.10.2"
 
 set :application, "sj-coding-test"
-set :repo_url, "git@github.com:nazmifeeroz/sj-coding-test.git"
+set :repo_url, "https://github.com/nazmifeeroz/sj-coding-test.git"
 
 set :deploy_to, '/home/deploy/sj-coding-test'
 
