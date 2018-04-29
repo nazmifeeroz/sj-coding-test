@@ -2,9 +2,9 @@
 lock "~> 3.10.2"
 
 set :application, "sj-coding-test"
-set :repo_url, "https://github.com/nazmifeeroz/sj-coding-test.git"
+set :repo_url, "git@github.com:nazmifeeroz/sj-coding-test.git"
 
-set :deploy_to, '/home/nazmi/sj-coding-test'
+set :deploy_to, '/home/deploy/sj-coding-test'
 
 append :linked_files, "config/database.yml", "config/secrets.yml"
 append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "vendor/bundle", "public/system", "public/uploads"
