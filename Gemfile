@@ -14,6 +14,8 @@ gem 'pdfkit'
 gem 'render_anywhere', :require => false
 gem 'wkhtmltopdf-binary'
 
+gem 'faker'
+
 gem 'rqrcode'
 
 gem 'sqlite3'
@@ -47,7 +49,6 @@ group :development do
 end
 group :development, :test do
   gem 'factory_bot_rails'
-  gem 'faker'
   gem 'rspec-rails'
   gem 'rubocop'
 end
