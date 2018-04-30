@@ -2,7 +2,7 @@
 
 ## About Robo Students
 - I thought it will be fun to add robot students as the samples to use in this app!
-- Check out the app online at sj.ashazdesign.tech
+- Check out the app online at http://sj.ashazdesign.tech
 
 ## User Stories
 
