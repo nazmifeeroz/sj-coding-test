@@ -2,6 +2,9 @@
 
 ## About Robo Students
 - I thought it will be fun to add robot students as the samples to use in this app!
+- Check out the app online at sj.ashazdesign.tech
+
+## User Stories
 
 - [x] As a user, I should be able to list all students in the school, so that I can see their names
 ![list students](https://ukkaashafood.com/after-seed.png)
