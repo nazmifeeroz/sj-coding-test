@@ -1,13 +1,14 @@
-# SJ Coding Test (Robo Students)
+# SJ Coding Test (Robo Students) with React!
 
 ## About Robo Students
 - I thought it will be fun to add robot students as the samples to use in this app!
 - Check out the app online at http://sj.ashazdesign.tech
+- Students list page is now built in react!
 
 ## User Stories
 
 - [x] As a user, I should be able to list all students in the school, so that I can see their names
-![list students](https://ukkaashafood.com/after-seed.png)
+![list students](https://github.com/nazmifeeroz/sj-coding-test/blob/master/public/index-page.png)
 - [x] As a user, I should be able to click on a student's name in the list, so that I can see the name, student number and faculty of the student in the student details page
 ![see profile](https://ukkaashafood.com/profile-page.png)
 - [x] As a user, I should be able to click on the "Download PDF" button in the student details page, so that I can download a pdf copy of the student's details
