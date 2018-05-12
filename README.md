@@ -1,4 +1,4 @@
-# SJ Coding Test (Robo Students) with React!
+# SJ Coding Test (Robo Students) with React JS!
 
 ## About Robo Students
 - I thought it will be fun to add robot students as the samples to use in this app!
