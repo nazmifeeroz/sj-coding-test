@@ -15,10 +15,10 @@ gem 'render_anywhere', :require => false
 gem 'wkhtmltopdf-binary'
 
 gem 'faker'
-
 gem 'rqrcode'
-
 gem 'sqlite3'
+
+gem 'react-rails'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

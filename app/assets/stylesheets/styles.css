@@ -14,6 +14,7 @@ div.container-fluid {
     text-align: center;
     color: black;
     transition: 0.3s;
+    display: inline-block;
 }
 
 .card:hover {
@@ -35,6 +36,7 @@ div.container-fluid {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     box-shadow: 8px 4px 8px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
 }
 
 .coder {
